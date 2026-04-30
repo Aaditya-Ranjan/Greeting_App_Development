@@ -22,7 +22,7 @@ public class GreetingController {
         return new Greeting((int) counter.incrementAndGet(), String.format(template, name));
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/hellohii")
     public String sayHello(){
         return greetingService.sayHello();
     }
